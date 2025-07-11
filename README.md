@@ -3,3 +3,10 @@
 A Music App created on Blazor.
 
 You can use this app to sort local music via the album name
+
+# How to use
+
+1.Put the .mp3, .ogg or .flac files on the Songs Folder
+
+2. On the "Songs" page hit hte "Scan" button
+3. When you open the web again you'll have to click the "Load fron JSON" button to load the songs
