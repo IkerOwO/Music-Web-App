@@ -4,6 +4,8 @@ A Music App created on Blazor.
 
 You can use this app to sort local music via the album name
 
+There are 7 Songs included
+
 # How to use
 
 1. Put the .mp3, .ogg or .flac files on the Songs Folder
