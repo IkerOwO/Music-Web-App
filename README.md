@@ -2,7 +2,7 @@
 
 A Music App created on Blazor.
 
-You can use this app to sort local music via the album name
+You can use this app to sort local music via the album 
 
 There are 7 Songs included
 
