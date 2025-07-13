@@ -4,7 +4,7 @@ A Music App created on Blazor.
 
 You can use this app to sort local music via the album 
 
-There are a couple of Songs included (You can delete them)
+There aren't any Songs included (I didn't want any problems with the authors)
 
 # How to use (Using the "App" Folder)
 
