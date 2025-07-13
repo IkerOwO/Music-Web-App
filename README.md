@@ -13,7 +13,8 @@ There aren't any songs included (I didn't want any problems with the authors)
 
  # How to use it (Code Folder)
  1. Go to Visual Studio and open the solution
- 2. On the terminal write "dotnet run"
- 3. Open the :5001 direction on a browser
+ 2. Create a Songs Folder on wwwroot
+ 3. On the terminal write "dotnet run"
+ 4. Open the :5001 direction on a browser
 
 # Created by Iker
