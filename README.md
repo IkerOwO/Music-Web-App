@@ -3,7 +3,7 @@
 There aren't any songs included (I didn't want any problems with the authors)
 
 # How to use it (Using the "App" Folder)
-1. Add .mp3, .ogg, .flac songs to the Songs directory (wwwroot/Songs)
+1. Add .mp3, .ogg, .flac songs to the Songs directory (wwwroot/Songs) -> (CREATE THE SONGS FOLDER)
 2. Open the .exe (A terminal is going to open)
 3. Open the :5001 direction on a browser
 4. Go to "Songs" and hit the Scan button
