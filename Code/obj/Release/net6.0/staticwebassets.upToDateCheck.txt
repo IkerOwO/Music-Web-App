@@ -1,0 +1,22 @@
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\Home.css
+wwwroot\css\open-iconic\FONT-LICENSE
+wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+wwwroot\css\open-iconic\ICON-LICENSE
+wwwroot\css\open-iconic\README.md
+wwwroot\css\Scanner.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\Songs\01 - Intro (feat. Apocalyptica).mp3
+wwwroot\Songs\01 - Scream Aim Fire.mp3
+wwwroot\Songs\02 - Eye Of The Storm.mp3
+wwwroot\Songs\02 - Her Voice Resides.mp3
+wwwroot\Songs\03 - 4 Words (To Choke Upon).mp3
+wwwroot\Songs\03 - Hearts Burst Into Fire.mp3
+wwwroot\Songs\04 - Waking The Demon.mp3

@@ -1,0 +1,67 @@
+﻿@page "/Songs"
+@using TagLib;
+@inject IWebHostEnvironment Env;
+@using MiAppMusica.Services
+@inject MusicService MusicService
+<link href="./css/Scanner.css" rel="stylesheet" />
+
+<PageTitle>Songs</PageTitle>
+
+<h2>Songs</h2>
+
+@* Botones *@
+<button style="margin-top:10px" class="btn btn-primary mb-3" @onclick="ScanSaveAndLoad">Scan Folder</button>
+<button style="margin-top:10px" class="btn btn-secondary mb-3 ms-2" @onclick="LoadFromJson">Load from JSON</button>
+
+@* Dependiendo de si hay o no canciones en la carpeta *@
+@if (MusicService.Albums == null || !MusicService.Albums.Any())
+{
+    <p>No Songs Scanned</p>
+}
+else
+{
+    @foreach (var album in MusicService.Albums)
+    {
+        <div class="mb-5">
+            <h4>@album.AlbumName</h4>
+            @if (!string.IsNullOrEmpty(album.CoverImageBase64))
+            {
+                <img src="@album.CoverImageBase64" style="max-width:200px; border-radius:8px;" alt="Carátula de @album.AlbumName" />
+            }
+            else
+            {
+                <div style="width:200px; height:200px; background:#ddd; display:flex; align-items:center; justify-content:center; border-radius:8px;">
+                    <em>Sin carátula</em>
+                </div>
+            }
+
+            <ul class="list-group mt-3">
+                @foreach (var song in album.Songs)
+                {
+                    <li class="list-group-item">
+                        <strong>@song.Title</strong> — @song.Artist<br />
+                        <audio controls style="width: 100%;">
+                            <source src="/Songs/@song.FileName" />
+                            Tu navegador no soporta audio.
+                        </audio>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}
+
+@code{
+    private async Task ScanSaveAndLoad()
+    {
+        MusicService.ScanSongs();
+        await MusicService.SaveToJsonAsync();
+        StateHasChanged();
+    }
+
+    private async Task LoadFromJson()
+    {
+        await MusicService.LoadFromJsonAsync();
+        StateHasChanged();
+    }
+}

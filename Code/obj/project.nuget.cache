@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z49GT+tw3Pk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ikerg\\source\\repos\\MiAppMusica\\MiAppMusica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ikerg\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

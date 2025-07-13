@@ -1,0 +1,9 @@
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\MiAppMusica.exe
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\Data\musicData.json
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\MiAppMusica.dll
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\MiAppMusica.deps.json
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\MiAppMusica.runtimeconfig.json
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\MiAppMusica.pdb
+C:\Users\ikerg\source\repos\MiAppMusica\obj\Release\net6.0\PubTmp\Out\TagLibSharp.dll
